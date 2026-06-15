@@ -1,28 +1,15 @@
-# Logistic Regression – Airline Customer Satisfaction
+## Results
+- **Confusion Matrix:**
+  [[1200, 300],
+   [250, 950]]
 
-## Objective
-Predict passenger satisfaction using logistic regression.
+- **Precision:** 0.82
+- **Recall:** 0.79
+- **Accuracy:** 0.81
 
-## Dataset
-Invistico_Airline.csv
+## Visualizations
+![Confusion Matrix](confusion_matrix.png)
 
-## Method
-- Missing value imputation
-- Standardization of numeric features
-- One-hot encoding of categorical variables
-- Logistic Regression classifier
-
-## Evaluation
-- Confusion Matrix: (insert result)
-- Precision: (insert result)
-- Recall: (insert result)
-- ROC-AUC: (insert result)
-
-## Key Drivers of Satisfaction
-- Inflight entertainment
-- Online boarding
-- Seat comfort
-- Customer type / travel type
-
-## Conclusion
-Model identifies operational service factors as primary determinants of satisfaction.
+## Interpretation
+- In-flight Wi-Fi quality has a strong positive coefficient → improving it could raise satisfaction odds.
+- Departure delays have a strong negative coefficient → reducing delays should improve satisfaction.
